@@ -1,0 +1,63 @@
+@import "../base/variables";
+
+.review {
+    max-width: 300px;
+    border: 1px solid black;
+    background-color: $clr-dark-magenta;
+    margin-bottom: 2rem;
+    padding: 1.8rem 1.4rem;
+    padding-right: 1.4rem;
+    border-radius: 8px;
+    align-items: center;
+
+    display: grid;
+    grid-template-columns: 10% auto;
+
+    .user-image {
+        align-self: center;
+        min-width: 28.35px;
+    }
+
+    img {
+        border-radius: 50%;
+        width: 2rem;
+    }
+
+    .split {
+        align-self: center;
+        padding-left: 20px;
+    }
+    .user-name {
+        color: white;
+        font-weight: 600;
+        font-size: .75rem;
+    }
+
+    .user-status {
+        color: $clr-dark-grayish-magenta;
+        font-weight: 600;
+        font-size: .76rem;
+    }
+
+
+    .user-review {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        place-self: center;
+
+        color: white;
+        font-size: .9rem;
+        font-weight: 50;
+        padding-top: 1rem;
+    }
+}
+
+// .reviews {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+
+

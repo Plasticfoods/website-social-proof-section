@@ -1,0 +1,36 @@
+@import "../base/variables";
+
+.ratings {
+    padding-bottom: 2.5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.rating {
+    border: 1px solid black;
+    padding-top: .65rem;
+    padding-bottom: .65rem;
+
+    background-color: $clr-light-grayish-mangenta;
+    border-radius: 7px;
+
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    align-items: center;
+    
+    picture {
+        width: 100px;
+        height: 1rem;
+        background-image: url(../images/icon-star.svg);
+        background-repeat: space;
+    }
+    
+    p {
+        color: $clr-dark-magenta;
+        font-size: .85rem;
+        font-weight: 700;
+    }
+}
